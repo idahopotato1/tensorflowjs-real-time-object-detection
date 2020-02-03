@@ -51,7 +51,7 @@ class App extends React.Component {
     const ctx = this.canvasRef.current.getContext("2d");
     ctx.clearRect(0, 0, ctx.canvas.width, ctx.canvas.height);
     // Font options.
-    const font = "18px sans-serif";
+    const font = "16px sans-serif";
     ctx.font = font;
     ctx.textBaseline = "top";
     predictions.forEach(prediction => {
